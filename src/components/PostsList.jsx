@@ -66,16 +66,6 @@ const PostsList = () => {
 
             })}
             </>
-
-            // <ul>
-            //   {posts.map((post) => (
-            //     <li key={post.id}>
-            //       <strong>{post.title}</strong> - {post.content}
-            //       <button onClick={() => handleEditClick(post)}>Edit</button>
-            //       <button onClick={() => handleDelete(post.id)}>Delete</button>
-            //     </li>
-            //   ))}
-            // </ul>
           )}
         </div>
       );
